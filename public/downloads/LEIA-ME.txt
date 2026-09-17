@@ -1,0 +1,48 @@
+========================================================================
+SISTEMA DE GESTÃO DE FROTAS - 19ª CIPM / PARIPE - POLÍCIA MILITAR DA BAHIA
+Versão Completa para Desktop e Offline (Windows 10 / Windows 11)
+========================================================================
+
+Este pacote contém o sistema de Gestão de Frota completo para uso
+offline ou local no Windows, sem necessidade de servidores externos.
+
+ARQUIVOS INCLUÍDOS:
+1. sistema_frotas_19cipm.html
+   - A aplicação web completa compilada em arquivo único.
+   - Contém todos os checklists (Carro e Moto), Carga de Viaturas,
+     Impressão A4 oficial da PMBA, Gráficos, Estoque, Manutenção,
+     Higienização, QR Code e Exportação para Excel.
+   - Pode ser aberto diretamente com dois cliques em qualquer navegador
+     (Google Chrome, Microsoft Edge, Mozilla Firefox, Brave, Opera).
+
+2. GestaoFrotas19CIPM.exe
+   - Executável nativo Windows 64-bit para Windows 10 e Windows 11.
+   - Inicia o sistema em MODO APLICATIVO NATIVO (sem barra de endereços
+     ou abas de navegador), proporcionando a experiência de um software
+     instalado.
+
+3. Iniciar_Sistema.bat
+   - Atalho rápido em lote para inicialização alternativa.
+
+4. Instalador_Gestao_Frotas_19CIPM.exe
+   - Instalador automático oficial do Windows.
+   - Cria atalhos na Área de Trabalho e no Menu Iniciar.
+
+COMO USAR:
+- Opção 1 (Instalação):
+  Execute "Instalador_Gestao_Frotas_19CIPM.exe" e siga as instruções na tela.
+  O atalho "19ª CIPM - Gestão de Frotas" será criado na sua Área de Trabalho.
+
+- Opção 2 (Modo Portátil / Sem Instalação):
+  Basta manter "GestaoFrotas19CIPM.exe" e "sistema_frotas_19cipm.html" na
+  mesma pasta (ou pendrive) e dar dois cliques em "GestaoFrotas19CIPM.exe"
+  ou diretamente em "sistema_frotas_19cipm.html".
+
+SEGURANÇA E DADOS:
+- Todos os dados, checklists preenchidos e cadastros são salvos de forma
+  segura no banco de dados local do seu computador (armazenamento persistente).
+- Funciona 100% sem conexão com a internet.
+
+19ª CIPM / PARIPE - POLÍCIA MILITAR DA BAHIA
+"PMBA, uma Força a serviço do cidadão!"
+========================================================================

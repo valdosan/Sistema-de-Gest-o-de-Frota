@@ -1,0 +1,6 @@
+{
+  "name": "Gestão de Frota - 19ª CIPM/PARIPE",
+  "description": "Sistema de Gestão de Frota da 19ª CIPM/PARIPE - PMBA com checklist de viaturas (4 rodas e motos), relatórios em PDF A4, controle de carga, manutenção, estoque e sincronização online/offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

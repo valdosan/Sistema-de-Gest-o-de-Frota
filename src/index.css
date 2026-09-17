@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 8mm 6mm;
+  }
+
+  *, *::before, *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  html, body {
+    width: 100% !important;
+    min-height: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+    color: #0f172a !important;
+    overflow: visible !important;
+  }
+
+  /* Ocultar elementos desnecessários na impressão */
+  #main-header,
+  #menu-lateral,
+  header,
+  nav,
+  aside,
+  footer,
+  .print\:hidden,
+  .no-print,
+  button,
+  input[type="text"],
+  input[type="search"],
+  input[type="date"],
+  select,
+  .toast,
+  [role="status"],
+  [role="dialog"] > div > .print\:hidden {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  /* Ajuste de containers que possuem overflow */
+  #root,
+  div[class*="min-h-screen"],
+  div[class*="overflow-hidden"],
+  main[class*="overflow-y-auto"] {
+    overflow: visible !important;
+    height: auto !important;
+    min-height: auto !important;
+    position: static !important;
+    display: block !important;
+    background: #ffffff !important;
+  }
+
+  /* Modal de Checklist A4 quando estiver em impressão */
+  div[class*="fixed"][class*="inset-0"] {
+    position: static !important;
+    inset: auto !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow: visible !important;
+    display: block !important;
+  }
+
+  /* Folha A4 do Checklist de Vistoria */
+  #checklist-a4-sheet {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: auto !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    page-break-after: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Tabelas e elementos com quebra de página protegida */
+  table, tr, td, th {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* Preservar imagens na impressão */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    display: block !important;
+  }
+
+  /* Manter avarias visíveis */
+  .relative img {
+    display: block !important;
+  }
+}
